@@ -1,0 +1,261 @@
+/* font title */
+.f-title-h1{
+    color: #FFFFFF;
+    font-size: 44px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+}
+.f-title-p{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    opacity: 0.4;
+}
+/* end font */
+
+/* contact */
+.contact{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 57px;
+}
+.addess-box{
+    width: 40%;
+    margin-top: 63px;
+}
+.contact h3{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding: 24px 0;
+}
+.addess-box p{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+.addess h3{
+    padding-top: 71px;
+}
+.addess p{
+    opacity: 0.6;
+    width: 299px;
+}
+.icon-contact{
+    display: flex;
+    flex-direction: row;
+    opacity: 0.6;
+    padding-bottom: 16px;
+}
+.icon-contact img{
+    margin-right: 16px;
+}
+.message-box{
+    width: 60%;
+}
+.send-box{
+    width: 540px;
+    height: 800px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+.box-input{
+    width: 428px;
+    margin: 0 auto;
+}
+.box-input p{
+    padding: 32px 0 8px 0;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+.pd-fullname p{
+    padding-top: 8;
+}
+.bt-submit{
+    width: 428px;
+    height: 72px;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    background: #5A98D0;
+    border-color:#5A98D0;
+    margin-top: 72px;
+}
+.input-name{
+    width: 428px;
+    height: 72px;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 42px;
+    opacity: 0.4;
+    outline: none; 
+}
+.input-message{
+    height: 144px;
+}
+/* end contaet */
+
+/* map */
+.map{
+    width: 960px;
+    height: 420px;
+    margin: 0 auto;
+    padding:  96px 0;
+}
+.box-map{
+    width: 960px;
+    height: 420px;
+    border: none;
+}
+/* end map */
+  
+@media screen and (max-width: 1279px ) and (min-width: 768px ){
+
+.xfooter2{
+    display: none;
+}
+.line{
+    width: 80%;
+    margin: 0 auto;
+}
+.contact{
+    width: 688px;
+    margin-top: 48px;
+}
+.addess-box{
+    margin-top: 16px;
+}
+.addess-box img{
+    width: 260px;
+    height: 156px;
+}
+.addess h3{
+    padding-top: 16px;
+}
+.addess p{
+    width: 260px;
+}
+.icon-contact img{
+    width: 24px;
+    height: 24px;
+}
+.send-box{
+    width: 388px;
+    height: 575px;
+}
+.box-input{
+    width: 307px;
+}
+.box-input p{
+    padding: 22px 0 5px 0;
+}
+.pd-fullname p{
+    padding-top: 8px;
+}
+.input-name{
+    width: 307px;
+    height: 51px;
+}
+.input-message{
+    height: 103px;
+}
+.bt-submit{
+    width: 307px;
+    height: 51px;
+    margin-top: 52px;
+}
+.map{
+    width: 702px;    
+    padding:  48px 0;
+}
+.box-map{
+    width: 702px; 
+}
+
+}
+@media screen and (max-width: 767px){
+/* contact */
+.contact{
+    flex-direction: column;
+    width: 296px;
+    margin-top: 32px;
+}
+.addess-box{
+    margin-top: 16px;
+}
+.addess-img .addess-box{
+    width: 260px;
+    height: 156px;
+    margin: 0 auto;
+}
+.addess h3{
+    padding-top: 16px;
+}
+.addess p{
+    width: 260px;
+}
+.contact h3{
+    width: 163px;
+}
+.icon-contact {
+    width: 220px;
+}
+.icon-contact img{
+    width: 24px;
+    height: 24px;
+}
+.send-box{
+    width: 296px;
+    height: 470px;
+}
+.send-box h3{
+    font-size: 16px;
+    width: 234px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+.box-input{
+    width: 234px;
+}
+.box-input p{
+    padding: 25px 0 0 0;
+}
+.pd-fullname p{
+    padding-top: 0px;
+}
+.input-name{
+    width: 234px;
+    height: 39px;
+}
+.input-message{
+    height: 78px;
+}
+.bt-submit{
+    width: 234px;
+    height: 39px;
+    margin-top: 24px;
+}
+/* end contact */
+/* map */
+.map{
+    width: 328px;
+    padding:  48px 0;
+}
+.box-map{
+    width: 328px;
+}
+.box-footertop button{
+    margin-bottom: 34px;
+    margin-top: 0;
+}
+/* end map */
+}
