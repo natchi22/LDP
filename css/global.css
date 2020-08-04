@@ -216,6 +216,7 @@ body{
 }
 /* footer */
 .footer{
+    background-color: #e4082d;
     border-radius: 0px 150px 0px 0px;
 }
 .footer-top{
